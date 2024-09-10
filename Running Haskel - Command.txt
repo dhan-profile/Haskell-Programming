@@ -1,0 +1,25 @@
+PS C:\Users\DELL> cd C:\Dhanush\Haskell
+PS C:\Dhanush\Haskell> ls
+
+
+    Directory: C:\Dhanush\Haskell
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        10-09-2024  01:04 PM             67 main.hs
+
+
+PS C:\Dhanush\Haskell> runhaskell main.hs
+Hello, world!
+PS C:\Dhanush\Haskell> ghc main.hs
+[1 of 2] Compiling Main             ( main.hs, main.o )
+[2 of 2] Linking main.exe
+PS C:\Dhanush\Haskell> ./main
+Hello, world!
+PS C:\Dhanush\Haskell> ghci main.hs
+GHCi, version 9.4.8: https://www.haskell.org/ghc/  :? for help
+Ok, one module loaded.
+ghci> main
+Hello, world!
+ghci>
